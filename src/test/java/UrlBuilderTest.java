@@ -13,4 +13,9 @@ public class UrlBuilderTest {
 		Assert.assertEquals("http://rikitiki.wikia.com/wiki/Special:Version", UrlBuilder.addPathToUrl("http://rikitiki.wikia.com/", "/wiki/Special:Version"));
 	}
 
+	@Test
+	public void addPathToUrlWithTrailingSlash2() throws Exception {
+		Assert.assertEquals("http://rikitiki.wikia.com/wiki/Special:Version", UrlBuilder.addPathToUrl("http://rikitiki.wikia.com/", "/wiki/Special:Version"));
+	}
+
 }
