@@ -9,7 +9,7 @@ public class UrlBuilderTest {
 	}
 
 	@Test
-	public void addPathToUrlWithTrailingSlash() throws Exception {
+	public void addPathToUrlWithTrailingSlash1() throws Exception {
 		Assert.assertEquals("http://rikitiki.wikia.com/wiki/Special:Version", UrlBuilder.addPathToUrl("http://rikitiki.wikia.com/", "/wiki/Special:Version"));
 	}
 
